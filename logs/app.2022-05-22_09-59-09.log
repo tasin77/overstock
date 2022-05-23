@@ -1,0 +1,104 @@
+2022-05-22 21:59:09.267 [main][2429] INFO  step_definitions.Hooks - -----Scenario: Check login is successful with valid credentials-----
+2022-05-22 21:59:09.921 [main][3083] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-05-22 21:59:09.927 [main][3089] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-22 21:59:09.927 [main][3089] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-22 21:59:09.931 [main][3093] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@35342d2f
+2022-05-22 21:59:09.944 [main][3106] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-05-22 21:59:09.944 [main][3106] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+2022-05-22 21:59:09.947 [main][3109] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-22 21:59:09.948 [main][3110] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-22 21:59:09.948 [main][3110] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-22 21:59:09.949 [main][3111] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-05-22 21:59:09.950 [main][3112] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-05-22 21:59:09.953 [main][3115] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3098cf3b
+2022-05-22 21:59:09.956 [main][3118] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-05-22 21:59:09.956 [main][3118] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-22 21:59:09.957 [main][3119] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2147483648 bytes (maybe)
+2022-05-22 21:59:09.958 [main][3120] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/h6/m916999d2hg8gc7bsrw10lrm0000gn/T (java.io.tmpdir)
+2022-05-22 21:59:09.958 [main][3120] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-22 21:59:09.959 [main][3121] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+2022-05-22 21:59:09.961 [main][3123] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2022-05-22 21:59:09.961 [main][3123] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-22 21:59:09.963 [main][3125] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2022-05-22 21:59:09.963 [main][3125] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-22 21:59:09.968 [main][3130] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-22 21:59:09.985 [main][3147] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-22 21:59:09.985 [main][3147] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-22 21:59:10.008 [main][3170] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-05-22 21:59:10.008 [main][3170] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-22 21:59:10.024 [main][3186] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2022-05-22 21:59:10.036 [main][3198] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-22 21:59:10.036 [main][3198] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-22 21:59:10.065 [main][3227] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-22 21:59:10.066 [main][3228] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-22 21:59:10.067 [main][3229] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-22 21:59:10.067 [main][3229] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-22 21:59:10.067 [main][3229] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-22 21:59:10.067 [main][3229] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-22 21:59:10.076 [main][3238] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-05-22 21:59:10.077 [main][3239] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-22 21:59:10.077 [main][3239] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-22 21:59:10.583 [Forwarding newSession on session null to remote][3745] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3843 (auto-detected)
+2022-05-22 21:59:10.587 [Forwarding newSession on session null to remote][3749] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-05-22 21:59:10.587 [Forwarding newSession on session null to remote][3749] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-05-22 21:59:10.596 [Forwarding newSession on session null to remote][3758] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+2022-05-22 21:59:10.597 [Forwarding newSession on session null to remote][3759] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2022-05-22 21:59:10.600 [Forwarding newSession on session null to remote][3762] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: b0:be:83:ff:fe:6e:38:60 (auto-detected)
+2022-05-22 21:59:10.668 [AsyncHttpClient-1-2][3830] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-05-22 21:59:10.668 [AsyncHttpClient-1-2][3830] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-05-22 21:59:10.668 [AsyncHttpClient-1-2][3830] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@da6c4e2
+2022-05-22 21:59:10.697 [AsyncHttpClient-1-2][3859] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-22 21:59:10.698 [AsyncHttpClient-1-2][3860] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-05-22 21:59:10.698 [AsyncHttpClient-1-2][3860] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-05-22 21:59:10.698 [AsyncHttpClient-1-2][3860] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-05-22 21:59:15.538 [AsyncHttpClient-1-2][8700] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-22 21:59:15.701 [main][8863] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x64f69e95a42ebd7a
+2022-05-22 21:59:37.778 [main][30940] DEBUG page_objects.LogIn - Wait for tab to be visible
+2022-05-22 21:59:37.779 [main][30941] INFO  step_definitions.LoginSteps - User is in the Overstock sign in Page
+2022-05-22 21:59:39.258 [main][32420] DEBUG page_objects.LogIn - Enter Email: tasin.chowdhury1@gmail.com
+2022-05-22 21:59:40.858 [main][34020] DEBUG page_objects.LogIn - Enter Password: Chowdhury12!!
+2022-05-22 21:59:40.858 [main][34020] INFO  step_definitions.LoginSteps - User has entered credentials
+2022-05-22 21:59:42.083 [main][35245] DEBUG page_objects.LogIn - Click on Sign In Button
+2022-05-22 21:59:42.083 [main][35245] INFO  step_definitions.LoginSteps - User has entered successfully
+2022-05-22 21:59:42.084 [main][35246] INFO  step_definitions.LoginSteps - User has landed on Dashboard
+2022-05-22 21:59:42.331 [main][35493] INFO  step_definitions.Hooks - -----End Scenario: Check login is successful with valid credentials-----
+2022-05-22 21:59:42.355 [main][35517] INFO  step_definitions.Hooks - -----Scenario: Check login is unsuccessful with invalid credentials-----
+2022-05-22 22:00:03.981 [main][57143] DEBUG page_objects.LogIn - Wait for tab to be visible
+2022-05-22 22:00:03.985 [main][57147] INFO  step_definitions.LoginSteps - User is in the Overstock sign in Page
+2022-05-22 22:00:05.261 [main][58423] DEBUG page_objects.LogIn - Enter Email: tasin.chowdhury1@gmail.com
+2022-05-22 22:00:07.560 [main][60722] DEBUG page_objects.LogIn - Enter Password: Newyorkcity12
+2022-05-22 22:00:07.560 [main][60722] INFO  step_definitions.LoginSteps - User has entered credentials
+2022-05-22 22:00:09.247 [main][62409] DEBUG page_objects.LogIn - Click on Sign In Button
+2022-05-22 22:00:09.247 [main][62409] INFO  step_definitions.LoginSteps - User has entered successfully
+2022-05-22 22:00:09.249 [main][62411] INFO  step_definitions.LoginSteps - User has failed to land on Dashboard
+2022-05-22 22:00:09.453 [main][62615] INFO  step_definitions.Hooks - -----End Scenario: Check login is unsuccessful with invalid credentials-----
+2022-05-22 22:00:09.465 [main][62627] INFO  step_definitions.Hooks - -----Scenario: Check login is successful with valid credentials for multiple users-----
+2022-05-22 22:00:29.252 [main][82414] DEBUG page_objects.LogIn - Wait for tab to be visible
+2022-05-22 22:00:29.253 [main][82415] INFO  step_definitions.LoginSteps - User is in the Overstock sign in Page
+2022-05-22 22:00:30.828 [main][83990] DEBUG page_objects.LogIn - Enter Email: tasin.chowdhury1@gmail.com
+2022-05-22 22:00:32.915 [main][86077] DEBUG page_objects.LogIn - Enter Password: Chowdhury12!!
+2022-05-22 22:00:32.915 [main][86077] INFO  step_definitions.LoginSteps - User has entered credentials
+2022-05-22 22:00:33.743 [main][86905] DEBUG page_objects.LogIn - Click on Sign In Button
+2022-05-22 22:00:33.744 [main][86906] INFO  step_definitions.LoginSteps - User has entered successfully
+2022-05-22 22:00:33.744 [main][86906] INFO  step_definitions.LoginSteps - User has landed on Dashboard
+2022-05-22 22:00:33.906 [main][87068] INFO  step_definitions.Hooks - -----End Scenario: Check login is successful with valid credentials for multiple users-----
+2022-05-22 22:00:33.919 [main][87081] INFO  step_definitions.Hooks - -----Scenario: Check login is successful with valid credentials for multiple users-----
+2022-05-22 22:00:56.277 [main][109439] DEBUG page_objects.LogIn - Wait for tab to be visible
+2022-05-22 22:00:56.278 [main][109440] INFO  step_definitions.LoginSteps - User is in the Overstock sign in Page
+2022-05-22 22:00:58.050 [main][111212] DEBUG page_objects.LogIn - Enter Email: tasinchowdhury9.0@gmail.com
+2022-05-22 22:00:59.314 [main][112476] DEBUG page_objects.LogIn - Enter Password: Chowdhury12!!
+2022-05-22 22:00:59.314 [main][112476] INFO  step_definitions.LoginSteps - User has entered credentials
+2022-05-22 22:01:00.771 [main][113933] DEBUG page_objects.LogIn - Click on Sign In Button
+2022-05-22 22:01:00.771 [main][113933] INFO  step_definitions.LoginSteps - User has entered successfully
+2022-05-22 22:01:00.771 [main][113933] INFO  step_definitions.LoginSteps - User has landed on Dashboard
+2022-05-22 22:01:00.930 [main][114092] INFO  step_definitions.Hooks - -----End Scenario: Check login is successful with valid credentials for multiple users-----
+2022-05-22 22:01:01.018 [main][114180] INFO  step_definitions.Hooks - -----Scenario: Check login is successful using data table-----
+2022-05-22 22:01:22.814 [main][135976] DEBUG page_objects.LogIn - Wait for tab to be visible
+2022-05-22 22:01:22.815 [main][135977] INFO  step_definitions.LoginSteps - User is in the Overstock sign in Page
+2022-05-22 22:01:23.000 [main][136162] INFO  step_definitions.Hooks - -----End Scenario: Check login is successful using data table-----
