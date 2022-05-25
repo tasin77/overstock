@@ -24,14 +24,13 @@ Feature: Test login functionalities
     Then user is navigated to Dashboard
 
     Examples:
-    |username|password|
-    |tasin.chowdhury1@gmail.com   |Chowdhury12!!|
-    |tasinchowdhury9.0@gmail.com   |Chowdhury12!!|
+      |username|password|
+      |tasin.chowdhury1@gmail.com   |Chowdhury12!!|
+      |tasinchowdhury9.0@gmail.com   |Chowdhury12!!|
 
   @dataTable_test
   Scenario: Check login is successful using data table
     When user click on login button entering credentials
-    |username|password|
-    |tasin.chowdhury1@gmail.com   |Chowdhury12!!   |
+      |username|password|
+      |tasin.chowdhury1@gmail.com   |Chowdhury12!!   |
     Then user is navigated to Dashboard
-

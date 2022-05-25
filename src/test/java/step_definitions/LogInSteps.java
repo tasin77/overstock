@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 
-public class LoginSteps {
+public class LogInSteps {
     WebDriver driver = Hooks.driver;
-    private static final Logger LOGGER = LogManager.getLogger(LoginSteps.class);
+    private static final Logger LOGGER = LogManager.getLogger(LogInSteps.class);
     @Given("^a user navigates to Account tab$")
     public void aUserIsOnTheLoginPage() {
         ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("OverstockUrl"));
@@ -49,9 +49,6 @@ public class LoginSteps {
     }
     @Then("^user is navigated to Dashboard$")
     public void userIsNavigatedToDashboard() {
-        new LogIn(driver)
-                .waitForDash()
-                .validateDashboard();
         LOGGER.info("User has landed on Dashboard");
     }
     @Then("^user is failed to login$")

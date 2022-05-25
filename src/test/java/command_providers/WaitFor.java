@@ -17,7 +17,7 @@ public class WaitFor {
         this.locator = locator;
     }
     public WaitFor waitForElementToBeVisible() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return this;
     }

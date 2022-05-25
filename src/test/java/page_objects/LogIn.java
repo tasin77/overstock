@@ -2,7 +2,6 @@ package page_objects;
 
 import command_providers.ActOn;
 import command_providers.AssertThat;
-import jdk.internal.net.http.common.Log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

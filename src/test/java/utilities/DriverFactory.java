@@ -26,25 +26,25 @@ public class DriverFactory {
     ThreadLocal<WebDriver> driver = ThreadLocal.withInitial(() -> {
         String environment = System.getProperty("environment") == null ? "local" : System.getProperty("environment");
         String browser = System.getProperty("browser") == null ? "chrome" : System.getProperty("browser");
-        URL OverstockUrl = null;
+        URL gridUrl = null;
 
         try {
-            OverstockUrl = new URL(ReadConfigFiles.getPropertyValues("OverstockUrl"));
+            gridUrl = new URL(ReadConfigFiles.getPropertyValues("GridUrl"));
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
 
         if (environment.equals("remote") && browser.equals("chrome")) {
             ChromeOptions chromeOptions = new ChromeOptions();
-            return new RemoteWebDriver(OverstockUrl, chromeOptions);
+            return new RemoteWebDriver(gridUrl, chromeOptions);
 
         } else if (environment.equals("remote") && browser.equals("firefox")) {
             FirefoxOptions firefoxOptions = new FirefoxOptions();
-            return new RemoteWebDriver(OverstockUrl, firefoxOptions);
+            return new RemoteWebDriver(gridUrl, firefoxOptions);
 
         } else if (environment.equals("remote") && browser.equals("edge")) {
             EdgeOptions edgeOptions = new EdgeOptions();
-            return new RemoteWebDriver(OverstockUrl, edgeOptions);
+            return new RemoteWebDriver(gridUrl, edgeOptions);
 
         } else {
 
